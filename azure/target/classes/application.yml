@@ -1,0 +1,11 @@
+server:
+  port: 9011
+spring:
+  datasource:
+    url: jdbc:sqlserver://shivaniserverworld.database.windows.net:1433;database=shivanisql;user=shivani0420@shivaniserverworld;password=Shivani@1234567;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    username: shivani0420 
+    password: Shivani@1234567
+  jpa:
+    hibernate:
+      ddl-auto: update
+      dialect : org.hibernate.dialect.SQLServer2012Dialect
